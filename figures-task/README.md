@@ -23,3 +23,5 @@
 2) Установите maven
 3) В директории с проектом введите команду ```maven test```
 4) Profit!
+
+![изображение](https://github.com/mrglaster/ISU-HW-MobileDev/assets/50916604/172e3aed-38dc-4f75-abab-76f44601e65b)
