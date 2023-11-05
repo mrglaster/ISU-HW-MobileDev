@@ -1,5 +1,7 @@
 <resources>
     <string name="app_name">RandomFilmSelector</string>
+    <string name="all_movies_watched">All the movies have been watched!</string>
+    <string name="films_list_reset">The films list has been reset!</string>
     <string-array name="movies">
         <item>Inception</item>
         <item>Truman Show</item>

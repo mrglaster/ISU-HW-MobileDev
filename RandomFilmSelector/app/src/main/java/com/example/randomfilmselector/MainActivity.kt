@@ -11,8 +11,10 @@ class MainActivity : AppCompatActivity() {
     private lateinit var filmName: TextView
     private lateinit var selectButton: Button
     private lateinit var moviesStack: Stack<String>
+    private lateinit var resetButton: Button
 
-    private fun getMoviesList(): Stack<String> {
+
+    private fun getMovies(): Stack<String> {
         val filmsList: MutableList<String> = resources.getStringArray(R.array.movies).toMutableList()
         filmsList.shuffle()
         val filmsStack = Stack<String>()
@@ -25,15 +27,23 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
         filmName = findViewById(R.id.filmTitle)
         selectButton = findViewById(R.id.selectFilmButton)
-        moviesStack = getMoviesList()
+        resetButton = findViewById(R.id.resetFilmsButton)
+        moviesStack = getMovies()
+
         selectButton.setOnClickListener {
             if (!moviesStack.isEmpty()){
                 val result:String = moviesStack.pop()
                 filmName.text = result
             } else {
-                filmName.text = "All the movies have been watched!"
+                filmName.text = resources.getString(R.string.all_movies_watched)
             }
         }
+
+        resetButton.setOnClickListener {
+            moviesStack = getMovies()
+            filmName.text = resources.getString(R.string.films_list_reset)
+        }
+
     }
 
 
