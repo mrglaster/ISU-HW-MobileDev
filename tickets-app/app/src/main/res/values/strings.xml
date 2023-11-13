@@ -1,0 +1,46 @@
+<resources>
+    <string name="app_name">Tickes App</string>
+    <string name="departure">Departure</string>
+    <string name="dates">Dates</string>
+    <string name="search">Search!</string>
+    <string name="passengers">Passengers</string>
+    <string name="adults">Adults</string>
+    <string name="children">Children</string>
+    <string name="babies">Babies</string>
+    <string name="buy_tickets">BUY TICKETS!</string>
+    <string name="cities">Cities</string>
+    <string name="select_date">Select Date</string>
+    <string name="destination">Destination</string>
+    <string-array name="cities">
+        <item>Moscow</item>
+        <item>New York</item>
+        <item>London</item>
+        <item>Paris</item>
+        <item>Tokyo</item>
+        <item>Beijing</item>
+        <item>Rome</item>
+        <item>Sydney</item>
+        <item>Cairo</item>
+        <item>Rio de Janeiro</item>
+        <item>Los Angeles</item>
+        <item>Dubai</item>
+        <item>Mumbai</item>
+        <item>Barcelona</item>
+        <item>Berlin</item>
+        <item>Amsterdam</item>
+        <item>Chicago</item>
+        <item>Mexico City</item>
+        <item>Istanbul</item>
+        <item>Toronto</item>
+        <item>Madrid</item>
+        <item>Bangkok</item>
+        <item>Seoul</item>
+        <item>Singapore</item>
+        <item>San Francisco</item>
+        <item>Hong Kong</item>
+        <item>Sao Paulo</item>
+        <item>Milan</item>
+        <item>Vienna</item>
+    </string-array>
+
+</resources>
