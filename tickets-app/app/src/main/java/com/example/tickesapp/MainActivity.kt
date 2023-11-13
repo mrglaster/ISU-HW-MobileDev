@@ -29,20 +29,20 @@ class MainActivity : AppCompatActivity() {
         destinationSpinner = findViewById(R.id.destinationCity)
         selectDepartureDateButton = findViewById(R.id.selectDepartureDate)
         selectReturnDateButton = findViewById(R.id.selectReturnDate)
-        val myCalendar = Calendar.getInstance()
+        val dateSelectCalendar  = Calendar.getInstance()
 
         val departureDateDialog = DatePickerDialog.OnDateSetListener { _, year, month, dayOfMonth ->
-            myCalendar.set(Calendar.YEAR, year)
-            myCalendar.set(Calendar.MONTH, month)
-            myCalendar.set(Calendar.DAY_OF_MONTH, dayOfMonth)
-            setDateText(myCalendar, selectDepartureDateButton)
+            dateSelectCalendar.set(Calendar.YEAR, year)
+            dateSelectCalendar.set(Calendar.MONTH, month)
+            dateSelectCalendar.set(Calendar.DAY_OF_MONTH, dayOfMonth)
+            setDateText(dateSelectCalendar, selectDepartureDateButton)
         }
 
         val returnDateDialog = DatePickerDialog.OnDateSetListener { _, year, month, dayOfMonth ->
-            myCalendar.set(Calendar.YEAR, year)
-            myCalendar.set(Calendar.MONTH, month)
-            myCalendar.set(Calendar.DAY_OF_MONTH, dayOfMonth)
-            setDateText(myCalendar, selectReturnDateButton)
+            dateSelectCalendar.set(Calendar.YEAR, year)
+            dateSelectCalendar.set(Calendar.MONTH, month)
+            dateSelectCalendar.set(Calendar.DAY_OF_MONTH, dayOfMonth)
+            setDateText(dateSelectCalendar, selectReturnDateButton)
         }
 
         val adapterDeparture = ArrayAdapter.createFromResource(this,
@@ -85,11 +85,11 @@ class MainActivity : AppCompatActivity() {
         }
 
         selectDepartureDateButton.setOnClickListener {
-            DatePickerDialog(this, departureDateDialog, myCalendar.get(Calendar.YEAR), myCalendar.get(Calendar.MONTH), myCalendar.get(Calendar.DAY_OF_MONTH)).show()
+            DatePickerDialog(this, departureDateDialog, dateSelectCalendar.get(Calendar.YEAR), dateSelectCalendar.get(Calendar.MONTH), dateSelectCalendar.get(Calendar.DAY_OF_MONTH)).show()
         }
 
         selectReturnDateButton.setOnClickListener {
-            DatePickerDialog(this, returnDateDialog, myCalendar.get(Calendar.YEAR), myCalendar.get(Calendar.MONTH), myCalendar.get(Calendar.DAY_OF_MONTH)).show()
+            DatePickerDialog(this, returnDateDialog, dateSelectCalendar.get(Calendar.YEAR), dateSelectCalendar.get(Calendar.MONTH), dateSelectCalendar.get(Calendar.DAY_OF_MONTH)).show()
         }
 
 
