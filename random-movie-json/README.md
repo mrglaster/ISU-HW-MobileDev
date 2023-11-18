@@ -8,6 +8,7 @@ In addition to the movie title, you must store at least 5-6 fields of your choic
 
 ### Screenshots
 
-![изображение](https://github.com/mrglaster/ISU-HW-MobileDev/assets/50916604/cae043af-6be5-4343-895b-318ae5eb859d)        ![изображение](https://github.com/mrglaster/ISU-HW-MobileDev/assets/50916604/3d89161c-72e0-4eef-884e-752a75ed98df)      ![изображение](https://github.com/mrglaster/ISU-HW-MobileDev/assets/50916604/a895ef99-62f6-458e-b9b3-0604d3824928)
+![изображение](https://github.com/mrglaster/ISU-HW-MobileDev/assets/50916604/cae043af-6be5-4343-895b-318ae5eb859d)        ![изображение](https://github.com/mrglaster/ISU-HW-MobileDev/assets/50916604/3d89161c-72e0-4eef-884e-752a75ed98df)      ![изображение](https://github.com/mrglaster/ISU-HW-MobileDev/assets/50916604/a895ef99-62f6-458e-b9b3-0604d3824928)     ![изображение](https://github.com/mrglaster/ISU-HW-MobileDev/assets/50916604/dcb32986-9a8d-4d2c-aeba-bc9a8847e37d)
+
       
 
