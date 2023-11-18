@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">random-movie-json</string>
+    <string-array name="json_array">
+        <item><![CDATA[{"name": "Matrix", "year": "1999", "duration": "2h16m", "genre": "Science Fiction", "image": "https://i.ibb.co/tQ53SpY/matrix.jpg"}]]></item>
+        <item><![CDATA[{"name": "Howl's Moving Castle", "year": "2004", "duration": "1h59m", "genre": "Animation", "image": "https://i.ibb.co/P9ZhnMj/hmc.jpg"}]]></item>
+        <item><![CDATA[{"name": "The Simpsons Movie", "year": "2007", "duration": "1h27m", "genre": "Animation", "image": "https://i.ibb.co/N2ydBg1/simpsons.jpg"}]]></item>
+        <item><![CDATA[{"name": "Stewie Griffin: The Untold Story", "year": "2005", "duration": "1h28m", "genre": "Animation/Comedy", "image": "https://i.ibb.co/y4VM3YQ/fg.jpg"}]]></item>
+        <item><![CDATA[{"name": "Star Wars: Episode I – The Phantom Menace", "year": "1999", "duration": "2h11m", "genre": "Science Fiction", "image": "https://i.ibb.co/JrJt9dz/sw.jpg"}]]></item>
+    </string-array>
+</resources>
