@@ -1,3 +1,4 @@
-# Работа с графическими ресурсами и стилями ("Подарочек")
-## Результаты тестирования (innovationcampus)
-![tests](https://github.com/vladnov138/AndroidDevelopment/assets/113700660/e18fd2cf-634f-411b-8114-aebab069a0c2)
+### Present Task
+
+
+![изображение](https://github.com/mrglaster/ISU-HW-MobileDev/assets/50916604/13be65fd-3f57-4423-82cf-0de50855f5f5)
