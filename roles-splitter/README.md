@@ -1,4 +1,4 @@
-## Split the play by role
+## Split the play by roles
 
 ### Description 
 
