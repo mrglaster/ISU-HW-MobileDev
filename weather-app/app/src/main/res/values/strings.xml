@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">weather-app</string>
+    <string name="load_weather">Load Weather</string>
+    <string name="weather_app">Weather App</string>
+    <string name="city">City</string>
+    <string name="api_key">USE YOUR OWN!</string>
+    <string-array name="cities">
+        <item>Irkutsk</item>
+        <item>Angarsk</item>
+        <item>Moscow</item>
+        <item>Berlin</item>
+    </string-array>
+</resources>
