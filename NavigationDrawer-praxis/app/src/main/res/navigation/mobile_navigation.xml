@@ -24,7 +24,7 @@
         tools:layout="@layout/fragment_slideshow" />
     <fragment
         android:id="@+id/app_about"
-        android:name="com.example.navigationdrawer.ui.app_about.AppAboutFragment"
+        android:name="com.example.navigationdrawer.ui.about.AboutFragment"
         android:label="@string/menu_app_about"
         tools:layout="@layout/fragment_app_about" />
 </navigation>
