@@ -1,15 +1,26 @@
-## Weather app
+## Working with the menu
 
 ### Description 
 
-Using the ![template](https://github.com/ipetrushin/CurrentWeatherDataBinding) , create an application to display the weather forecast. To convert JSON data into objects, use the GSON library.
+In a project with a weather forecast, use the menu to switch the language
 
-You need to use your own ![OpenWeatherMap key](https://home.openweathermap.org/api_keys)
+![Project basis from class](https://github.com/ipetrushin/MenuDemo)
 
-The application should display the length of the day in hours and minutes. The city is entered by the user, there should be a button to update the weather status.
-
-
-### Screenshots 
+To switch localization you can use ![example from article](https://medium.com/swlh/android-app-specific-language-change-programmatically-using-kotlin-d650a5392220)
 
 
-![изображение](https://github.com/mrglaster/ISU-HW-MobileDev/assets/50916604/5e293576-c993-4558-8505-4c3c4832f5f8)    ![изображение](https://github.com/mrglaster/ISU-HW-MobileDev/assets/50916604/e24134d9-cb3d-4abc-a193-5dd63a92a665)
+
+```
+Locale locale = new Locale("ru");
+Locale.setDefault(locale);
+Configuration config = getBaseContext().getResources().getConfiguration();
+config.locale = locale;
+getBaseContext().getResources().updateConfiguration(config, getBaseContext().getResources().getDisplayMetrics());
+```
+
+
+### Results
+
+![изображение](https://github.com/mrglaster/ISU-HW-MobileDev/assets/50916604/1cc67b33-9cac-48f1-82c2-a1bc0f448d7d)  ![изображение](https://github.com/mrglaster/ISU-HW-MobileDev/assets/50916604/6f779a2f-4a7c-413d-b8ea-227001df9217)    ![изображение](https://github.com/mrglaster/ISU-HW-MobileDev/assets/50916604/01936184-a3ab-406c-8711-19a7a5004464)
+
+
