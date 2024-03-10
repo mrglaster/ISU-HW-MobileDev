@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">weather-app</string>
+    <string name="load_weather">Загрузить погоду</string>
+    <string name="weather_app">Погода</string>
+    <string name="city">Город</string>
+    <string name="api_key">ИСПОЛЬЗУЙ СВОЙ</string>
+    <string name="ru">Русский</string>
+    <string name="en">English</string>
+    <string name="temperature">Температура::</string>
+    <string name="feels_like">Ощущается как:</string>
+    <string name="day_len">Длительность дня</string>
+    <string name="weather">Погода:</string>
+    <string name="description">Описание:</string>
+    <string-array name="cities">
+        <item>Иркутск</item>
+        <item>Ангарск</item>
+        <item>Москва</item>
+        <item>Берлин</item>
+    </string-array>
+</resources>
