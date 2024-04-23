@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">geolocation</string>
+    <string name="latitude">Latitude:</string>
+    <string name="longitude">Longitude:</string>
+    <string name="some_value">some_value</string>
+    <string name="update_origins">Update origins</string>
+</resources>

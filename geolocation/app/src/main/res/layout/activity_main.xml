@@ -1,0 +1,57 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/lat_cap"
+        android:textSize="30sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/latitude"
+        android:padding="5sp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        />
+    <TextView
+        android:id="@+id/lng_cap"
+        android:textSize="30sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/longitude"
+        android:padding="5sp"
+        android:layout_below="@+id/lat_cap"
+        android:layout_alignParentStart="true"
+        />
+
+    <TextView
+        android:id="@+id/latitude"
+        android:textSize="30sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/some_value"
+        android:padding="5sp"
+        android:layout_alignParentTop="true"
+        android:layout_toEndOf="@id/lat_cap"
+        />
+    <TextView
+        android:id="@+id/longitude"
+        android:textSize="30sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/some_value"
+        android:padding="5sp"
+        android:layout_below="@+id/latitude"
+        android:layout_toEndOf="@id/lng_cap"
+        />
+
+    <Button
+        android:id="@+id/updateButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/lng_cap"
+        android:layout_marginTop="263dp"
+        android:text="@string/update_origins" />
+
+</RelativeLayout>
