@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">weather-worker</string>
+    <string name="api_key">d652b42d2fa34d70b9c3f2e7448a3a0c</string>
+    <string name="weather">Weather:</string>
+    <string name="wind">Wind:</string>
+    <string name="refresh">Refresh</string>
+    <string name="city_2">City 2</string>
+    <string name="enter_first_city">Enter first city</string>
+    <string name="enter_second_city">Enter second city</string>
+    <string name="city_1">City 1</string>
+</resources>
