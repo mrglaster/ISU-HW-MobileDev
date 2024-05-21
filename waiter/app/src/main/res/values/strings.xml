@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">waiter</string>
+    <string name="_0">Время созерцания: 0 мин.</string>
+    <string name="tired_wait">Надоело ждать?</string>
+</resources>
