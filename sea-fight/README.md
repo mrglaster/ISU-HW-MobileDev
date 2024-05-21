@@ -13,4 +13,8 @@
 
 
 
-![image](https://github.com/mrglaster/ISU-HW-MobileDev/assets/50916604/fe611676-5e4e-48eb-a39c-efa19d8861fc)
+![image](https://github.com/mrglaster/ISU-HW-MobileDev/assets/50916604/c9495a8b-705f-467b-82c2-89573ac78170) ![image](https://github.com/mrglaster/ISU-HW-MobileDev/assets/50916604/b15f2693-ff76-4d80-a51a-a89cb22a35c1)
+![image](https://github.com/mrglaster/ISU-HW-MobileDev/assets/50916604/77f62294-af21-4b1b-bc6d-68a9ed133dcf) ![image](https://github.com/mrglaster/ISU-HW-MobileDev/assets/50916604/6ef17579-5d3b-44ca-b945-21d788e255d0)
+
+
+
